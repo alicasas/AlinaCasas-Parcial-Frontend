@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+label {
+  color: white;
+}
+
+
+
+.card {
+  background-color: #09478d;
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+
+
+.form-box {
+  background-color: #09478d;
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  border-radius: 10px;
+}
+
+form > button{
+  border-radius: 50px;
+  margin-top: 10px;
+}
